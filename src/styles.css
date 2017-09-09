@@ -269,8 +269,8 @@ input[type="checkbox"]:focus,
 }
 
 .logo img {
-    max-width: 100%;
-    padding: 20px 0
+    max-width: 91%;
+    padding: 9px 0;
 }
 
 .nav ul {
