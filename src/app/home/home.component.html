@@ -1,15 +1,7 @@
-<!-- <app-mega-carousel></app-mega-carousel> -->
-
 <div class="main-content">
 
   <div class="homepage-slider">
-    <div class="slide first responsive-image">
-      <a href="#">
-        <picture>
-          <img src="http://lorempixel.com/1920/900/city/" alt="Image">
-        </picture>
-      </a>
-    </div>
+    <app-mega-carousel></app-mega-carousel>
   </div>
   
   <div class="chickpea background">
@@ -276,35 +268,35 @@
                   <div class="form-row row1">
                     <div class="column01 column">
                       <div id="ctl00_ctl11_ncpfirstname" class="EditingFormControlNestedControl editing-form-control-nested-control">
-                        <input name="ctl00$ctl11$FirstName$txtText" type="text" maxlength="200" id="ctl00_ctl11_FirstName_txtText" class="form-control first-name text"/>
-                        <input type="hidden" name="ctl00$ctl11$FirstName$exWatermark_ClientState" id="ctl00_ctl11_FirstName_exWatermark_ClientState"/>
+                        <input name="FIrstName" placeholder="Fisrt Name" type="text" maxlength="200" class="form-control"/>
                       </div>
                     </div>
 
                     <div class="column02 column">
                       <div id="ctl00_ctl11_ncplastname" class="EditingFormControlNestedControl editing-form-control-nested-control">
-                        <input name="ctl00$ctl11$LastName$txtText" type="text" maxlength="200" id="ctl00_ctl11_LastName_txtText" class="form-control last-name text"/>
-                        <input type="hidden" name="ctl00$ctl11$LastName$exWatermark_ClientState" id="ctl00_ctl11_LastName_exWatermark_ClientState"/>
+                        <input name="LastName" placeholder="Last Name" type="text" maxlength="200" class="form-control"/>
                       </div>
                     </div>
                   </div>
 
                   <div class="form-row row2">
                     <div class="column01 column">
-                      <div id="ctl00_ctl11_ncpemail" class="EditingFormControlNestedControl editing-form-control-nested-control">
-                        <input name="ctl00$ctl11$Email$txtText" type="text" maxlength="200" id="ctl00_ctl11_Email_txtText" class="form-control email text"/>
-                        <input type="hidden" name="ctl00$ctl11$Email$exWatermark_ClientState" id="ctl00_ctl11_Email_exWatermark_ClientState" />
+                      <div class="EditingFormControlNestedControl editing-form-control-nested-control">
+                        <input name="Email" placeholder="Email" type="text" maxlength="200" class="form-control"/>
                       </div>
                     </div>
-                    <div class="column02 column form-controls"><input type="submit" name="ctl00$ctl11$btnOK" value="GET COUPON" id="ctl00_ctl11_btnOK" class="FormButton btn btn-primary"/></div>
+                    <div class="column02 column form-controls">
+                      <input type="submit" value="SUBMIT" class="FormButton btn btn-primary"/></div>
                   </div>
 
                   <div class="form-row row3">
                     <div class="column01 column controls checkbox">
                       <div id="ctl00_ctl11_ncpoptin" class="EditingFormControlNestedControl editing-form-control-nested-control">
-                        <span class="CheckBoxField checkbox"><input id="ctl00_ctl11_OptIn_checkbox" type="checkbox" name="ctl00$ctl11$OptIn$checkbox" checked="checked" /><label for="ctl00_ctl11_OptIn_checkbox">&nbsp;</label></span>
+                        <span class="CheckBoxField checkbox">
+                          <input type="checkbox" name="" checked="checked" />
+                          <label for="">&nbsp;</label></span>
                       </div>
-                      <label id="ctl00_ctl11_OptIn_lb" class="EditingFormLabel" for="ctl00_ctl11_OptIn_checkbox">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label></div>
+                      <label class="EditingFormLabel" for="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label></div>
 
                     <div class="column02 column">&nbsp;</div>
                   </div>
