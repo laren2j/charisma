@@ -1573,32 +1573,32 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
     }
 }
 
-.chickpea {
+.full-banner {
     background-image: url("http://lorempixel.com/1920/600/city/")
 }
 
-.chickpea .col-md-7 {
+.full-banner .col-md-7 {
     margin-left: 20.833%
 }
 
-.chickpea .col-md-7 .green-form {
+.full-banner .col-md-7 .green-form {
     margin: 135px 0 100px
 }
 
 @media screen and (max-width:415px) {
-    .chickpea .col-md-7 .green-form h2 {
+    .full-banner .col-md-7 .green-form h2 {
         margin: 20px 13% 10px
     }
 }
 
 @media screen and (max-width:315px) {
-    .chickpea .col-md-7 .green-form h2 {
+    .full-banner .col-md-7 .green-form h2 {
         margin: 20px 0 10px
     }
 }
 
 @media screen and (max-width:768px) {
-    .chickpea .col-md-7 .green-form {
+    .full-banner .col-md-7 .green-form {
         margin: 60px 15px 60px;
         min-height: auto;
         padding: 15px 0
@@ -1606,50 +1606,50 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 @media screen and (max-width:850px) {
-    .chickpea .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box {
         margin: 0 5%;
         width: 90%
     }
 }
 
 @media screen and (max-width:768px) {
-    .chickpea .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box {
         height: 100%;
         min-height: 300px
     }
 }
 
 @media screen and (max-width:350px) {
-    .chickpea .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box {
         min-height: 400px
     }
 }
 
 @media screen and (max-width:992px) {
-    .chickpea .col-md-7 {
+    .full-banner .col-md-7 {
         margin-left: auto
     }
 }
 
-.chickpea .edittexthome {
+.full-banner .edittexthome {
     line-height: 33px;
     margin: 30px auto;
     width: 60%
 }
 
 @media screen and (max-width:1600px) {
-    .chickpea .edittexthome {
+    .full-banner .edittexthome {
         width: 75%
     }
 }
 
 @media screen and (max-width:480px) {
-    .chickpea .edittexthome {
+    .full-banner .edittexthome {
         width: 100%
     }
 }
 
-.chickpea a,
+.full-banner a,
 .homepage-grid a,
 .original a {
     background-color: #198d42;
@@ -1668,7 +1668,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
     -ms-transition: background-color .5s ease
 }
 
-.chickpea a:hover,
+.full-banner a:hover,
 .homepage-grid a:hover,
 .original a:hover {
     background-color: transparent;
@@ -1676,12 +1676,12 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
     color: #198d42
 }
 
-.chickpea a {
+.full-banner a {
     padding: 12px 46px 12px 24px;
     position: relative
 }
 
-.chickpea a:after {
+.full-banner a:after {
     content: '';
     display: inline-block;
     font-family: "FontAwesome";
