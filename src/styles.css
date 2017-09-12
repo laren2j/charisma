@@ -307,7 +307,7 @@ input[type="checkbox"]:focus,
 }
 
 .green-box {
-    background-color: #198d42;
+    background-color: #8a8686;
     min-height: 455px;
     mix-blend-mode: multiply;
     position: absolute;
