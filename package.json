@@ -54,5 +54,13 @@
   "keywords": [
     "charisma"
   ],
-  "author": "Lionel A. Dsouza"
+  "author": "Lionel A. Dsouza",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laren2j/charisma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laren2j/charisma/issues"
+  },
+  "homepage": "https://github.com/laren2j/charisma#readme"
 }
