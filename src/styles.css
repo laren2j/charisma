@@ -353,7 +353,6 @@ input[type="checkbox"]:focus,
 .form .form-row button {
     background-color: #198d42;
     border: 3px solid #198d42;
-    border-radius: 2em;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -372,7 +371,8 @@ input[type="checkbox"]:focus,
 .form .form-row button:hover {
     background-color: transparent;
     border: 3px solid #198d42;
-    color: #198d42
+    color: #198d42;
+    text-decoration: none;
 }
 
 div.green-button {
@@ -1654,7 +1654,6 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .original a {
     background-color: #198d42;
     border: 3px solid #198d42;
-    border-radius: 2em;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -1673,7 +1672,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .original a:hover {
     background-color: transparent;
     border: 3px solid #198d42;
-    color: #198d42
+    color: #198d42;
+    text-decoration: none;
 }
 
 .full-banner a {
@@ -6930,7 +6930,6 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .kitchen-slider-item__button:active {
     background-color: #198d42;
     border: 3px solid #198d42;
-    border-radius: 2em;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -6950,7 +6949,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .kitchen-slider-item__button:hover {
     background-color: #fff;
     border: 3px solid #198d42;
-    color: #198d42
+    color: #198d42;
+    text-decoration: none;
 }
 
 .kitchen-split__button:link,
