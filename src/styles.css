@@ -351,8 +351,8 @@ input[type="checkbox"]:focus,
 .green-button,
 .form .form-row input[type="submit"],
 .form .form-row button {
-    background-color: #198d42;
-    border: 3px solid #198d42;
+    background-color: #555555;
+    border: 3px solid #555555;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -370,8 +370,8 @@ input[type="checkbox"]:focus,
 .form .form-row input[type="submit"]:hover,
 .form .form-row button:hover {
     background-color: transparent;
-    border: 3px solid #198d42;
-    color: #198d42;
+    border: 3px solid #555555;
+    color: #555555;
     text-decoration: none;
 }
 
@@ -1652,8 +1652,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .full-banner a,
 .homepage-grid a,
 .original a {
-    background-color: #198d42;
-    border: 3px solid #198d42;
+    background-color: #555555;
+    border: 3px solid #555555;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -1671,8 +1671,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .homepage-grid a:hover,
 .original a:hover {
     background-color: transparent;
-    border: 3px solid #198d42;
-    color: #198d42;
+    border: 3px solid #555555;
+    color: #555555;
     text-decoration: none;
 }
 
@@ -3614,7 +3614,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
     background-clip: padding-box;
     -webkit-box-shadow: 2px 2px 2px 0 rgba(93, 93, 93, .35);
     box-shadow: 2px 2px 2px 0 rgba(93, 93, 93, .35);
-    background: #198d42;
+    background: #555555;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -4007,8 +4007,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 .food-item .category-box:hover .category-button,
 .food-item .category-box.selected .category-button {
-    background-color: #198d42;
-    border: 5px solid #198d42;
+    background-color: #555555;
+    border: 5px solid #555555;
     border: 5px solid rgba(25, 141, 66, .2);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -6928,8 +6928,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .kitchen-slider-item__button:link,
 .kitchen-slider-item__button:visited,
 .kitchen-slider-item__button:active {
-    background-color: #198d42;
-    border: 3px solid #198d42;
+    background-color: #555555;
+    border: 3px solid #555555;
     color: #fff;
     font-family: "proxima-nova-soft";
     font-size: 18px;
@@ -6948,8 +6948,8 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .kitchen-split__button:hover,
 .kitchen-slider-item__button:hover {
     background-color: #fff;
-    border: 3px solid #198d42;
-    color: #198d42;
+    border: 3px solid #555555;
+    color: #555555;
     text-decoration: none;
 }
 
@@ -9283,10 +9283,6 @@ div.white-break {
     .cd-modal .cd-modal-content {
         padding: 6em 20%
     }
-}
-
-#btnEmailUs:hover {
-    color: #198d42
 }
 
 .cd-modal-bg-green {
