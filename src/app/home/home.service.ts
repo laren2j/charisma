@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
 import { Home } from './../model/home';
-// import { HOME } from './../model/data/mock-home';
+import { HOMEDATA } from './../model/data/mock-home';
 
 interface DataResponse {
   results: string[];
@@ -19,6 +19,10 @@ export class HomeService implements OnInit  {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+  }
+
+  public getHome(): Promise<Home[]> {
+    return Promise.resolve(HOMEDATA);
   }
 
   public getHomePage(): any {

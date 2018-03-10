@@ -1,0 +1,26 @@
+{
+  "name": "charisma",
+  "version": "1.0.0",
+  "description": "Backend framework for Restful API - Charisma",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "charisma-server"
+  ],
+  "author": "Lionel Aaron Dsouza",
+  "license": "ISC"
+}

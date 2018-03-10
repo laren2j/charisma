@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeService } from './home.service';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs/observable';
+
+import { Home } from './../model/home';
+import { HomeService } from './home.service';
 
 interface UserResponse {
   login: string;
@@ -17,12 +19,18 @@ interface UserResponse {
 
 export class HomeComponent implements OnInit {
 
-  public home: any;
+  public data: Array<Home>;
+  public homeData;
 
   constructor(private homeService: HomeService, private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.getHomeData();
+    // this.getHomeData();
+    this.getHome();
+  }
+
+  public getHome(): void {
+    this.homeData = this.homeService.getHome().then(home => this.data = home);
   }
 
   public getHomeData(): void {
@@ -41,4 +49,5 @@ export class HomeComponent implements OnInit {
       }
     );
   }
+
 }
