@@ -9,12 +9,12 @@ export const HOMEDATA: Home =
         "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
       },
       {
-        "img": "http://lorempixel.com/1920/600/city/",
+        "img": "http://lorempixel.com/1920/600/sports/",
         "caption": "caption for slider",
         "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
       },
       {
-        "img": "http://lorempixel.com/1920/600/city/",
+        "img": "http://lorempixel.com/1920/600/food/",
         "caption": "caption for slider",
         "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
       }
