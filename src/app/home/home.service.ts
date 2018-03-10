@@ -14,8 +14,7 @@ interface DataResponse {
 export class HomeService implements OnInit  {
 
   public results: any;
-  private homeUrl = 'https://jsonplaceholder.typicode.com/comments';
-
+  
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
@@ -24,39 +23,4 @@ export class HomeService implements OnInit  {
   public getHome(): Promise<Home[]> {
     return Promise.resolve(HOMEDATA);
   }
-
-  public getHomePage(): any {
-    this.http
-    .get<DataResponse>(this.homeUrl)
-    .subscribe(
-      data => { this.results = data; },
-      (err: HttpErrorResponse) => {
-        if (err.error instanceof Error) {
-          console.log('An error occurred:', err.error.message);
-        } else {
-          console.log(`Backend returned code ${err.status}, body was: ${err.error}`);
-        }
-      }
-    );
-  }
-
-  public postHomePage(): any {
-    const body = {name: 'Lionel'};
-    this.http
-    .post('/api/items/add', body, {
-      headers: new HttpHeaders().set('Authorization', 'my-auth-token'),
-      params: new HttpParams().set('id', '3')
-    })
-    .subscribe(
-      data => { this.results = data; },
-      (err: HttpErrorResponse) => {
-        if (err.error instanceof Error) {
-          console.log('An error occurred:', err.error.message);
-        } else {
-          console.log(`Backend returned code ${err.status}, body was: ${err.error}`);
-        }
-      }
-    );
-  }
-
 }
