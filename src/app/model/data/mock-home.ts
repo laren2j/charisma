@@ -1,6 +1,6 @@
 import { Home } from "./../home";
 
-export const HOMEDATA: Home[] = [
+export const HOMEDATA: Home =
   {
     "slider": [
       {
@@ -134,5 +134,4 @@ export const HOMEDATA: Home[] = [
         }
       ]
     }
-  }  
-];
+  };

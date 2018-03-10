@@ -13,7 +13,7 @@ import { HomeService } from './home.service';
 
 export class HomeComponent implements OnInit {
 
-  public data: Array<Home>;
+  public data: Home;
   public homeData;
 
   constructor(private homeService: HomeService, private http: HttpClient) { }

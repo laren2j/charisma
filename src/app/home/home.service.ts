@@ -14,13 +14,13 @@ interface DataResponse {
 export class HomeService implements OnInit  {
 
   public results: any;
-  
+
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
   }
 
-  public getHome(): Promise<Home[]> {
+  public getHome(): Promise<Home> {
     return Promise.resolve(HOMEDATA);
   }
 }
