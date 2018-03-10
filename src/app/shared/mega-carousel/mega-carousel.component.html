@@ -1,12 +1,12 @@
 <ngb-carousel>
-  <ng-template ngbSlide>
-    <img src="http://lorempixel.com/1920/600/city/" alt="Random first slide">
+  <ng-template ngbSlide  *ngFor="let slider of sliders">
+    <img [src]="slider.img" alt="Random first slide">
     <div class="carousel-caption">
-      <h3>10 seconds between slides...</h3>
-      <p>This carousel uses customized default values.</p>
+      <h3>{{slider.caption}}</h3>
+      <p>{{slider.subCaption}}</p>
     </div>
   </ng-template>
-  <ng-template ngbSlide>
+  <!-- <ng-template ngbSlide>
     <img src="http://lorempixel.com/1920/600/city/"  alt="Random second slide">
     <div class="carousel-caption">
       <h3>No keyboard...</h3>
@@ -19,5 +19,5 @@
       <h3>And no wrap after last slide.</h3>
       <p>This carousel uses customized default values.</p>
     </div>
-  </ng-template>
+  </ng-template> -->
 </ngb-carousel>

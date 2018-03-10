@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { Slider } from '../../model/slider';
 
 @Component({
   selector: 'app-mega-carousel',
@@ -8,6 +9,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
   providers: [NgbCarouselConfig]
 })
 export class MegaCarouselComponent implements OnInit {
+  @Input() sliders: Slider;
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree

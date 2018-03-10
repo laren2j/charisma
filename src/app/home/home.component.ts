@@ -1,13 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeService } from './home.service';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs/observable';
 
-interface UserResponse {
-  login: string;
-  bio: string;
-  company: string;
-}
+import { Home } from './../model/home';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'app-home',
@@ -17,28 +13,19 @@ interface UserResponse {
 
 export class HomeComponent implements OnInit {
 
-  public home: any;
+  public data: Home;
+  public homeData;
 
   constructor(private homeService: HomeService, private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.getHomeData();
+    this.getHome();
   }
 
-  public getHomeData(): void {
-    this.http.get<UserResponse>('https://api.github.com/users/seeschweiler').subscribe(
-      data => {
-        console.log('User Login: ' + data.login);
-        console.log('Bio: ' + data.bio);
-        console.log('Company: ' + data.company);
-      },
-      (err: HttpErrorResponse) => {
-        if (err.error instanceof Error) {
-          console.log('Client-side error occured.');
-        } else {
-          console.log('Server-side error occured.');
-        }
-      }
-    );
+  public getHome(): void {
+    this.homeData = this.homeService.getHome()
+      .then(home =>
+        this.data = home
+      );
   }
 }

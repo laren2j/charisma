@@ -1,18 +1,17 @@
 <div class="main-content">
 
   <div class="homepage-slider">
-    <app-mega-carousel></app-mega-carousel>
-    {{ home }}
+    <app-mega-carousel [sliders]="data.slider"></app-mega-carousel>
   </div>
-  
+
   <div class="full-banner background">
     <div class="container">
       <div class="row">
         <div class="col-md-7">
           <div class="green-form">
-            <h2 class="o">Title Here</h2>
+            <h2 class="o">{{data.contact.title}}</h2>
             <div class="edittexthome">
-              <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p class="p1">{{data.contact.desc}} </p>
               &nbsp;
               <p class="p1"><a class="youtube-video" href="#youtube" target="_blank">PLAY VIDEO</a></p>
             </div>
@@ -136,7 +135,7 @@
   </div>
 
   <!-- Homepage Recpies -->
-  <!-- <div class="homepage-recipes">
+  <div class="homepage-recipes">
     <img src="/assets/images/spinach.png" class="veggie" />
     <div class="container">
       <div class="row">
@@ -185,43 +184,11 @@
               </a>
             </div>
 
-            <div class="single-recipe">
-              <a href="#">
-                <div class="recipe-info">
-                  <h4>Lorem ipsum text</h4>
-                  <p>Lorem Ipsum is simply.</p>
-                  <a href="#">VIEW RECIPE</a>
-                  <a href="#" target="_blank" class="youtube-video">WATCH VIDEO</a>
-                  <div class="recipe-bar" style="height: 1px; width: 50%; margin: 30px auto; background-color: #8e8e90;"></div>
-                  <div class="details">
-                    <span class="serves">Demo text</span>
-                    <span class="total-time">Demo sub text</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="single-recipe">
-              <a href="#">
-                <div class="recipe-info">
-                  <h4>Lorem ipsum text</h4>
-                  <p>Lorem Ipsum is simply.</p>
-                  <a href="#">VIEW RECIPE</a>
-                  <a href="#" target="_blank" class="youtube-video">WATCH VIDEO</a>
-                  <div class="recipe-bar" style="height: 1px; width: 50%; margin: 30px auto; background-color: #8e8e90;"></div>
-                  <div class="details">
-                    <span class="serves">Demo text</span>
-                    <span class="total-time">Demo sub text</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Homepage Social -->
   <div class="homepage-social">
