@@ -1148,7 +1148,7 @@ div.corner.youtube {
 }
 
 .email-form {
-    background-image: url("http://lorempixel.com/1920/600/city/");
+    background-image: url("http://via.placeholder.com/1350X600/198d42");
     background-position: center center;
     position: relative
 }
@@ -1573,7 +1573,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 .full-banner {
-    background-image: url("http://lorempixel.com/1920/600/city/")
+    background-image: url("http://via.placeholder.com/1350X600/198d4")
 }
 
 .full-banner .col-md-7 {
@@ -1865,7 +1865,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 @media screen and (max-width:768px) {
     .homepage-grid .history .grid-left {
-        background-image: url("http://lorempixel.com/759/697/city/")
+        background-image: url("http://via.placeholder.com/759X697/")
     }
 }
 
@@ -1906,7 +1906,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 @media screen and (max-width:768px) {
     .homepage-grid .ingredients .grid-left {
-        background-image: url("http://lorempixel.com/759/697/city/")
+        background-image: url("http://via.placeholder.com/759x697")
     }
 }
 
@@ -1917,15 +1917,15 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 .history {
-    background-image: url("http://lorempixel.com/759/697/city/")
+    background-image: url("http://via.placeholder.com/759x697")
 }
 
 .process {
-    background-image: url("http://lorempixel.com/759/697/city/")
+    background-image: url("http://via.placeholder.com/759x697")
 }
 
 .ingredients {
-    background-image: url("http://lorempixel.com/759/697/city/")
+    background-image: url("http://via.placeholder.com/759x697")
 }
 
 .original {

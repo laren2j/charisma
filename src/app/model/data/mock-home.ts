@@ -4,17 +4,17 @@ export const HOMEDATA: Home =
   {
     "slider": [
       {
-        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider1",
+        "img": "http://via.placeholder.com/1350X600/01907a?text=Slider1",
         "caption": "Feel Like Home - Charisma Homestay",
         "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       },
       {
-        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider2",
+        "img": "http://via.placeholder.com/1350X600/259e50?text=Slider2",
         "caption": "Feel Like Home - Charisma Homestay",
         "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       },
       {
-        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider3",
+        "img": "http://via.placeholder.com/1350X600/cccccc?text=Slider3",
         "caption": "Feel Like Home - Charisma Homestay",
         "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       }
@@ -27,7 +27,7 @@ export const HOMEDATA: Home =
     },
     "grid": [
         {
-          "imgCaption": "Kitchen Facilty",
+          "imgCaption": "Kitchen",
           "imgCaptionSub": "Fully equiped kitchen",
           "title": "Kitchen Facilty",
           "desc": "Fully equiped kitchen, with microwave, gas burners, refirgerator and  drinking water.",
@@ -43,7 +43,7 @@ export const HOMEDATA: Home =
           "btnUrl": "#"
         },
         {
-          "imgCaption": "4 Bedrooms",
+          "imgCaption": "Bedrooms",
           "imgCaptionSub": "4 Bedrooms House",
           "title": "4 Bedroom House",
           "desc": "4 Bedroom house with attached bathrooms and solar heated water.",
@@ -51,7 +51,7 @@ export const HOMEDATA: Home =
           "btnUrl": "#"
         },
         {
-          "imgCaption": "All Basic Amenities",
+          "imgCaption": "Amenities",
           "imgCaptionSub": "24x7 Water Supply and Power Backup",
           "title": "All Basic Ameneties",
           "desc": "24x7 Water Supply, Power Backup, TV Programs and access to well maintained backyard.",
