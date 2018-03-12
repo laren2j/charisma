@@ -4,99 +4,99 @@ export const HOMEDATA: Home =
   {
     "slider": [
       {
-        "img": "http://lorempixel.com/1920/600/city/",
-        "caption": "caption for slider",
-        "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
+        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider1",
+        "caption": "Feel Like Home - Charisma Homestay",
+        "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       },
       {
-        "img": "http://lorempixel.com/1920/600/sports/",
-        "caption": "caption for slider",
-        "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
+        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider2",
+        "caption": "Feel Like Home - Charisma Homestay",
+        "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       },
       {
-        "img": "http://lorempixel.com/1920/600/food/",
-        "caption": "caption for slider",
-        "subCaption": "Title HereLorem Ipsum is simply the dummied text of the printing and typesetting industry."
+        "img": "http://via.placeholder.com/1350X600/0053f9?text=Slider3",
+        "caption": "Feel Like Home - Charisma Homestay",
+        "subCaption": "A comfortable home away from home, in costal town of Mangalore."
       }
     ],
     "mainSection": {
-      "title": "this is a demo title",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "btn": "play video",
+      "title": "Live in costal town of Mangalore",
+      "desc": "Experience the lifestyle, beaches and the cusine.",
+      "btn": "See Gallery",
       "btnUrl": "#"
     },
     "grid": [
         {
-          "imgCaption": "TITLE",
-          "imgCaptionSub": "WITH LINE BREAK",
-          "title": "TRADITIONAL RECIPE",
-          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "imgCaption": "Kitchen Facilty",
+          "imgCaptionSub": "Fully equiped kitchen",
+          "title": "Kitchen Facilty",
+          "desc": "Fully equiped kitchen, with microwave, gas burners, refirgerator and  drinking water.",
           "btn": "LINK Pages",
           "btnUrl": "#"
         },
         {
-          "imgCaption": "TITLE",
-          "imgCaptionSub": "WITH LINE BREAK",
-          "title": "TRADITIONAL RECIPE",
-          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "imgCaption": "Laundry",
+          "imgCaptionSub": "Fully automatic washing machine",
+          "title": "Laundry",
+          "desc": "Fully automatic washing machine and dryer avilable to all guests.",
           "btn": "LINK Pages",
           "btnUrl": "#"
         },
         {
-          "imgCaption": "TITLE",
-          "imgCaptionSub": "WITH LINE BREAK",
-          "title": "TRADITIONAL RECIPE",
-          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "imgCaption": "4 Bedrooms",
+          "imgCaptionSub": "4 Bedrooms House",
+          "title": "4 Bedroom House",
+          "desc": "4 Bedroom house with attached bathrooms and solar heated water.",
           "btn": "LINK Pages",
           "btnUrl": "#"
         },
         {
-          "imgCaption": "TITLE",
-          "imgCaptionSub": "WITH LINE BREAK",
-          "title": "TRADITIONAL RECIPE",
-          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "imgCaption": "All Basic Amenities",
+          "imgCaptionSub": "24x7 Water Supply and Power Backup",
+          "title": "All Basic Ameneties",
+          "desc": "24x7 Water Supply, Power Backup, TV Programs and access to well maintained backyard.",
           "btn": "LINK Pages",
           "btnUrl": "#"
         }
       ],
     "feature": [{
-      "title": "TRADITIONAL RECIPE",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "title": "Other Features",
+      "desc": "Our homestay is the most affordable and boasts of all ameneties, so that guests always feel like home.",
       "btn": "LINK Pages",
       "btnUrl": "#",
       "facilities": [
         {
-          "icon": "icon name",
-          "title": "wifi"
+          "icon": "Wi-Fi",
+          "title": "Highspeed Wi-Fi"
         },
         {
-          "icon": "icon name",
-          "title": "wifi"
+          "icon": "Hot Water",
+          "title": "Solar Heated Water"
         },
         {
-          "icon": "icon name",
-          "title": "wifi"
+          "icon": "Power Backup",
+          "title": "Power Backup"
         }
       ]
     }],
     "contact": {
-      "title": "SAY HI AND WE,LL GIVE YOU A COUPON",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "title": "WE ARE HERE TO HELP",
+      "desc": "We can help you if you have any additional requests while you choose to stay with us, to make sure your stay with us is comfortable one."
     },
     "footer": {
       "section1": [{
-        "title": "OUR COMPANY",
+        "title": "OUR HOMESTAY",
         "links": [
           {
-            "title": "About",
+            "title": "About us",
             "url": "#"
           },
           {
-            "title": "About",
+            "title": "Our Location",
             "url": "#"
           },
           {
-            "title": "About",
+            "title": "Places of Interest",
             "url": "#"
           }
         ]
@@ -114,7 +114,7 @@ export const HOMEDATA: Home =
         "pin": "575002",
         "phone": [
           {
-            "mobile": "+919448549944"
+            "mobile": "+91 944 854 9944"
           }
         ],
         "btn": "Link Page",
@@ -122,14 +122,19 @@ export const HOMEDATA: Home =
       }]
     },
     "footerSub": {
-      "copyright": "© 2017 Charisma Home Stay. ALL RIGHTS RESERVED.",
+      "copyright": "© 2018 Charisma Homestay - Mangalore. ALL RIGHTS RESERVED.",
       "links": [
         {
-          "title": "DEMO PAGE",
+          "title": "Terms and Condition",
+          "url": "#"
+        },
+        ,
+        {
+          "title": "Privacy Policy",
           "url": "#"
         },
         {
-          "title": "POLICY PAGE",
+          "title": "Registered Business",
           "url": "#"
         }
       ]
