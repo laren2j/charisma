@@ -10,7 +10,7 @@ export class Home {
     slider: Array<Slider>;
     mainSection: MainSection;
     grid: Array<Grid>;
-    feature: Array<Feature>;
+    feature: Feature;
     contact: Contact;
     footer:  Footer;
     footerSub: FooterSub;

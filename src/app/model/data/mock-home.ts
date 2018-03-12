@@ -21,7 +21,7 @@ export const HOMEDATA: Home =
     ],
     "mainSection": {
       "title": "Live in costal town of Mangalore",
-      "desc": "Experience the lifestyle, beaches and the cusine.",
+      "desc": "Experience the lifestyle, Explore the beaches and the historic sites, Enjoy the loacl cusine.",
       "btn": "See Gallery",
       "btnUrl": "#"
     },
@@ -31,7 +31,7 @@ export const HOMEDATA: Home =
           "imgCaptionSub": "Fully equiped kitchen",
           "title": "Kitchen Facilty",
           "desc": "Fully equiped kitchen, with microwave, gas burners, refirgerator and  drinking water.",
-          "btn": "LINK Pages",
+          "btn": "Check Gallery",
           "btnUrl": "#"
         },
         {
@@ -39,7 +39,7 @@ export const HOMEDATA: Home =
           "imgCaptionSub": "Fully automatic washing machine",
           "title": "Laundry",
           "desc": "Fully automatic washing machine and dryer avilable to all guests.",
-          "btn": "LINK Pages",
+          "btn": "Check Gallery",
           "btnUrl": "#"
         },
         {
@@ -47,7 +47,7 @@ export const HOMEDATA: Home =
           "imgCaptionSub": "4 Bedrooms House",
           "title": "4 Bedroom House",
           "desc": "4 Bedroom house with attached bathrooms and solar heated water.",
-          "btn": "LINK Pages",
+          "btn": "Check Gallery",
           "btnUrl": "#"
         },
         {
@@ -55,30 +55,30 @@ export const HOMEDATA: Home =
           "imgCaptionSub": "24x7 Water Supply and Power Backup",
           "title": "All Basic Ameneties",
           "desc": "24x7 Water Supply, Power Backup, TV Programs and access to well maintained backyard.",
-          "btn": "LINK Pages",
+          "btn": "Check Gallery",
           "btnUrl": "#"
         }
       ],
-    "feature": [{
+    "feature": {
       "title": "Other Features",
       "desc": "Our homestay is the most affordable and boasts of all ameneties, so that guests always feel like home.",
       "btn": "LINK Pages",
       "btnUrl": "#",
       "facilities": [
         {
-          "icon": "Wi-Fi",
+          "icon": "fa fa-wifi",
           "title": "Highspeed Wi-Fi"
         },
         {
-          "icon": "Hot Water",
+          "icon": "fa fa-wifi",
           "title": "Solar Heated Water"
         },
         {
-          "icon": "Power Backup",
+          "icon": "fa fa-wifi",
           "title": "Power Backup"
         }
       ]
-    }],
+    },
     "contact": {
       "title": "WE ARE HERE TO HELP",
       "desc": "We can help you if you have any additional requests while you choose to stay with us, to make sure your stay with us is comfortable one."
