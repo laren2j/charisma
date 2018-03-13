@@ -315,6 +315,15 @@ input[type="checkbox"]:focus,
     width: 100%
 }
 
+.half-green-box {
+    background-color: #8a8686;
+    min-height: 255px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 70px;
+    width: 100%
+}
+
 @media screen and (max-width:992px) {
     .green-box {
         top: 0;
@@ -1148,7 +1157,7 @@ div.corner.youtube {
 }
 
 .email-form {
-    background-image: url("http://via.placeholder.com/1350X600/198d42");
+    background: linear-gradient(to bottom right, blue, pink);
     background-position: center center;
     position: relative
 }
@@ -1573,31 +1582,35 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 .full-banner {
-    background-image: url("http://via.placeholder.com/1350X600/198d4")
+    background: linear-gradient(to bottom right, blue, pink);
 }
 
-.full-banner .col-md-7 {
+.half-banner {
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+.full-banner .col-md-7, .half-banner .col-md-7 {
     margin-left: 20.833%
 }
 
-.full-banner .col-md-7 .green-form {
+.full-banner .col-md-7 .green-form, .half-banner .col-md-7 .green-form {
     margin: 135px 0 100px
 }
 
 @media screen and (max-width:415px) {
-    .full-banner .col-md-7 .green-form h2 {
+    .full-banner .col-md-7 .green-form h2, .half-banner .col-md-7 .green-form h2 {
         margin: 20px 13% 10px
     }
 }
 
 @media screen and (max-width:315px) {
-    .full-banner .col-md-7 .green-form h2 {
+    .full-banner .col-md-7 .green-form h2, .half-banner .col-md-7 .green-form h2 {
         margin: 20px 0 10px
     }
 }
 
 @media screen and (max-width:768px) {
-    .full-banner .col-md-7 .green-form {
+    .full-banner .col-md-7 .green-form, .half-banner .col-md-7 .green-form {
         margin: 60px 15px 60px;
         min-height: auto;
         padding: 15px 0
@@ -1605,27 +1618,27 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 @media screen and (max-width:850px) {
-    .full-banner .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box, .half-banner .col-md-7 .green-box {
         margin: 0 5%;
         width: 90%
     }
 }
 
 @media screen and (max-width:768px) {
-    .full-banner .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box, .half-banner .col-md-7 .green-box {
         height: 100%;
         min-height: 300px
     }
 }
 
 @media screen and (max-width:350px) {
-    .full-banner .col-md-7 .green-box {
+    .full-banner .col-md-7 .green-box, .half-banner .col-md-7 .green-box {
         min-height: 400px
     }
 }
 
 @media screen and (max-width:992px) {
-    .full-banner .col-md-7 {
+    .full-banner .col-md-7, .half-banner .col-md-7 {
         margin-left: auto
     }
 }
@@ -1793,6 +1806,10 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
     margin: 120px 0 35px
 }
 
+.homepage-grid h2 {
+    margin: 60px 0 35px
+}
+
 @media screen and (max-width:992px) {
     .homepage-grid h3 {
         margin: 50px 0 35px
@@ -1865,7 +1882,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 @media screen and (max-width:768px) {
     .homepage-grid .history .grid-left {
-        background-image: url("http://via.placeholder.com/759X697/")
+        background: linear-gradient(to bottom right, blue, pink);
     }
 }
 
@@ -1886,7 +1903,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 .homepage-grid .process .grid-left-first {
-    background-image: url("http://lorempixel.com/759/697/city/");
+    background: linear-gradient(to bottom right, blue, pink);
     display: none;
     float: left;
     width: 100%
@@ -1906,7 +1923,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 @media screen and (max-width:768px) {
     .homepage-grid .ingredients .grid-left {
-        background-image: url("http://via.placeholder.com/759x697")
+        background: linear-gradient(to bottom right, blue, pink);
     }
 }
 
@@ -1917,15 +1934,15 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 }
 
 .history {
-    background-image: url("http://via.placeholder.com/759x697")
+    background: linear-gradient(to bottom right, blue, pink);
 }
 
 .process {
-    background-image: url("http://via.placeholder.com/759x697")
+    background: linear-gradient(to bottom right, blue, pink);
 }
 
 .ingredients {
-    background-image: url("http://via.placeholder.com/759x697")
+    background: linear-gradient(to bottom right, blue, pink);
 }
 
 .original {
@@ -3099,7 +3116,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 
 @media screen and (min-width:992px) {
     .page-our-story .history {
-        background-image: url("http://lorempixel.com/1300/1000/city/");
+        background: linear-gradient(to bottom right, blue, pink);
         background-position: 0 0
     }
 }
