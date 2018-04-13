@@ -1827,7 +1827,7 @@ ul.share li .form .back [data-pin-log="button_pinit"] {
 .homepage-grid .process,
 .homepage-grid .ingredients {
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 50% 100%;
     width: 100%
 }
 
