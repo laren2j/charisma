@@ -9491,4 +9491,7 @@ div.white-break {
     transform: scale(1)
 }
 
+.carousel-item img {
+    width:100%;
+}
 
