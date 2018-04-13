@@ -1,0 +1,23 @@
+.bg-gradient {
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+.gallery-row {
+    min-height: 300px;
+}
+
+.gallery-icon {
+    font-size: 50px;
+    padding: 10px 40px;
+    color: antiquewhite;
+}
+
+.gallery-icon:hover {
+    color: rgb(79, 255, 217);
+}
+
+.gallery-row > .row > .col-md-6 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: snow;
+}
