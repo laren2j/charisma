@@ -17,18 +17,12 @@ import { HomeComponent } from './home/home.component';
 import { HomeService } from './home/home.service';
 
 const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'home', component: HomeComponent },
-  {
-    path: 'gallery',
-    component: GalleryComponent,
+  { path: 'gallery', component: GalleryComponent,
     data: { title: 'Gallery' }
-  },
-  { path: '',
-    // redirectTo: 'home',
-    component: HomeComponent
-    // pathMatch: 'full'
   },
   { path: '**', component: PageNotFoundComponent }
 ];
