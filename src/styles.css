@@ -9304,10 +9304,6 @@ div.white-break {
     background-color: #198d42
 }
 
-.white-x {
-    background-image: url("/assets/images/close-recipe-white.png")!important
-}
-
 .contactmodal::after {
     content: '';
     position: absolute;

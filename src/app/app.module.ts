@@ -3,6 +3,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { AgmCoreModule } from '@agm/core';
+import { ServiceWorkerModule } from '@angular/service-worker';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -15,6 +18,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { HomeService } from './home/home.service';
+import { env } from '../env';
+import { environment } from '../environments/environment';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -43,6 +48,10 @@ const appRoutes: Routes = [
     BrowserModule,
     HttpClientModule,
     NgbModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: env.mapsApiKey
+    }),
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false } // <-- debugging purposes only

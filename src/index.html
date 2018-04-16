@@ -4,11 +4,53 @@
   <meta charset="utf-8">
   <title>Charisma Homestay</title>
   <base href="/">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Charisma Homestay: A scerene home in costal city of mangalore for your family">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="theme-color" content="#FFFF00">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    .spinner {
+      width: 60px;
+      height: 60px;
+      margin: 60px;
+      animation: rotate 1.4s infinite ease-in-out, background 1.4s infinite ease-in-out alternate;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      }
+      50% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+      }
+      100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+      }
+    }
+    @keyframes background {
+      0% {
+      background-color: #27ae60;
+      }
+      50% {
+        background-color: #9b59b6;
+      }
+      100% {
+        background-color: #c0392b;
+      }
+    }
+  </style>
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <nav style="background-color: #ffffff; height: 56px; width: 100%">
+    </nav>
+    <div class="spinner"></div>
+  </app-root>
+  <noscript>
+    <h3 style="color: #673ab7; font-family: proxima-nova; margin: 2rem;">
+      Sorry, but the website is not available without javascript
+    </h3>
+  </noscript>
 </body>
 </html>

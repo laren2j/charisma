@@ -1,0 +1,41 @@
+{
+    "short_name": "Charisma",
+    "name": "Charisma Homestay - Feel like home.",
+    "description": "A home in costal city of mangalore",
+    "icons": [
+        {
+            "src": "assets/images/appicon80.png",
+            "type": "image/png",
+            "sizes": "80x80"
+        },
+        {
+            "src": "assets/images/appicon88.png",
+            "type": "image/png",
+            "sizes": "88x88"
+        },
+        {
+            "src": "assets/images/appicon152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "assets/images/appicon172.png",
+            "type": "image/png",
+            "sizes": "172x172"
+        },
+        {
+            "src": "assets/images/appicon196.png",
+            "type": "image/png",
+            "sizes": "196x196"
+        },
+        {
+            "src": "assets/images/appicon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html?launcher=true",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#673ab7"
+}
